@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.grysta.homework2.UC3"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/ivNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normal"/>
+    <ImageView
+        android:id="@+id/ivAlter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/alter"/>
+    <ImageView
+        android:id="@+id/ivLily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lily"/>
+    <ImageView
+        android:id="@+id/ivRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red"/>
+    <ImageView
+        android:id="@+id/ivWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white"/>
+
+</android.support.constraint.ConstraintLayout>

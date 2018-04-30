@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.grysta.homework2.UC4">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <Button android:text="第一个Button"/>
+            <Button android:text="第二个Button"/>
+        </TableRow>
+        <Button android:text="第三个Button"/>
+        <TableRow>
+            <Button android:text="第四个Button"/>
+        </TableRow>
+
+    </TableLayout>
+
+</android.widget.TableLayout>
