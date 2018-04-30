@@ -22,7 +22,8 @@
         <activity android:name=".UC4" />
         <activity android:name=".UC5" />
         <activity android:name=".UC1Horizon" />
-        <activity android:name=".UC1Left"></activity>
+        <activity android:name=".UC1Left" />
+        <activity android:name=".Test"></activity>
     </application>
 
 </manifest>
